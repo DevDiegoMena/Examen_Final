@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;.
+    margin: 0;
+    padding: 0;
+    background-color: #ddd; /* Fondo gris para toda la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+/* Modificaciones para la primera página con los botones */
+
+/* Estilos para los botones */
+.btn {
+    width: 150px; /* Ancho cuadrado */
+    height: 150px; /* Altura cuadrada */
+    font-size: 18px; /* Tamaño de la tipografía */
+    margin: 0 10px; /* Margen entre los botones */
+    transition: background-color 0.3s ease; /* Animación de cambio de color */
+}
+
+/* Cambios de estilo al pasar el ratón sobre los botones */
+.btn:hover {
+    background-color: #555; /* Cambio de color al pasar el ratón */
+    color: white; /* Texto en blanco al pasar el ratón */
+}
+
+/* Estilos adicionales para centrar el contenido */
+.center {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura del 100% de la ventana */
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purple {
+    background-color: #CC3FF9;
+    color: white;
+}
+
+.light-green {
+    background-color: #97E04A ;
+    color: black;
+}
+
+/* Modificaciones para los formularios */
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Puntas redondeadas */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    width: calc(100%); /* Ajuste de ancho para evitar desbordamiento */
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3F8BF9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Ajusta el margen superior para separar el botón del contenido anterior */
+}
+
+/* Estilos adicionales para centrar el contenido */
+.center {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura del 100% de la ventana */
+}
